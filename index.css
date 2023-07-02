@@ -1,0 +1,300 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+}
+.image {
+    width: 80px;
+    height: 70px;
+
+}
+#navItem1 {
+    color: #323f4b;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#navItem2 {
+    color: #323f4b;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#navItem4 {
+    color: #323f4b;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background: #ffffff;
+    padding: 30px;
+}
+
+.heading {
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px
+}
+
+nav {
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav li a:hover {
+    color: #888;
+}
+
+nav li a {
+    text-decoration: none;
+    margin: 0px 30px;
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.home {
+    background-image: url('https://wallpaperaccess.com/full/279665.jpg');
+    padding: 30px;
+    background-position: center;
+    background-size: cover;
+}
+
+.home_content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    color: #ffffff;
+    text-align: center;
+}
+.experience_content,
+.education_content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    color: #ffffff;
+}
+
+.home_content h4 {
+    font-weight: 300;
+    font-size: 38px;
+    margin-bottom: 15px;
+
+}
+
+.home_content h2 {
+    font-weight: 300;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.skills {
+    background-image: url('https://wallpaperaccess.com/full/7012024.jpg');
+    padding: 30px;
+    background-position: center;
+    background-size: cover;
+}
+
+.skills h3,
+.aboutme h3,
+.contact h3,
+.education h3,
+.experience h3 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 38px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.skills_content,
+.aboutme_content {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    padding-top: 20px;
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  .icon {
+    margin-right: 5px;
+  }
+
+  .icon.fa-graduation-cap {
+    color: #ff9900;
+  }
+  
+  .icon.fa-certificate {
+    color: #0099cc;
+  }
+  
+  .icon.fa-calendar-alt {
+    color: #33cc33;
+  }
+  
+  .icon.fa-map-marker-alt {
+    color: #cc0066;
+  }
+
+
+.skills_content img {
+    width: 100%;
+    height: 100%;
+    max-width: 800px;
+}
+
+.aboutme {
+    background-image: url('https://wallpaperaccess.com/full/656693.jpg');
+    padding: 30px;
+    background-position: center;
+    background-size: cover;
+}
+.education {
+    background-image: url('https://wallpaperaccess.com/full/1772317.jpg');
+    padding: 30px;
+    background-position: center;
+    background-size: cover;
+}
+.experience {
+    background-image: url('https://marvel-b1-cdn.bc0a.com/f00000000091204/www.nice.com/-/media/niceincontact/page-content/blog/2022/09/what-distinguishes-the-best-customer-experience-software-company-from-the-rest/what-distinguishes-the-best-customer-experience-software-company-from-the-rest.ashx?rev=c1bae92699bd427a86597c53b9bc08c8&h=628&w=1200&la=en&hash=FE303CAD041EEC9A3A08F42B7ADC58E3');
+    padding: 30px;
+    background-position: center;
+    background-size: cover;
+}
+
+.aboutme_content {
+    color: #ffffff;
+    padding-bottom: 20px;
+    background: rgba(0, 0, 0, 0.7)
+}
+
+.aboutme_content p {
+    line-height: 25px;
+    margin: 10px;
+}
+
+.contact {
+    background-image: url('https://c1.wallpaperflare.com/preview/427/745/192/notebook-natural-laptop-macbook.jpg');
+    padding: 30px;
+    background-position: center;
+    background-size: cover;
+}
+
+footer {
+    text-align: center;
+    background: #111111;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.contact_content {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact_content input {
+    border: 1px solid #dfdfdf;
+    padding: 8px;
+    width: 50%;
+    border-radius: 3px;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.contact_content button {
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.link {
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.icon.fa-briefcase {
+    color: #ff9900;
+  }
+
+  .icon.fa-calendar-alt {
+    color: #33cc33;
+  }
+
+  .icon.fa-map-marker-alt {
+    color: #cc0066;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin: 5px 0;
+  }
+
+  .icon {
+    margin-right: 5px;
+  }
